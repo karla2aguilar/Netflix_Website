@@ -1,1 +1,35 @@
+/* Karla Aguilar
+CSS file for website */
 
+html {
+    background: linear-gradient(to bottom, #cd41f4, #4286f4);
+    /* height: 200%; */
+    background-repeat: no-repeat;
+}
+
+.smallTables {
+    border: solid 3px black;
+    width: 28%;
+    height: 500%;
+    text-align: left;
+    padding: 20px;
+}
+
+#rightTable {
+    float: right;
+    margin-right: 150px;
+    text-decoration: black;
+    font-size: 125%;
+}
+
+#leftTable {
+    float: left;
+    margin-left: 150px;
+    text-decoration: black;
+    font-size: 125%;
+}
+
+#images:hover {
+    width: 150px;
+    height: 150px;
+}
