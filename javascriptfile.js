@@ -1,29 +1,29 @@
+document.getElementById("button").addEventListener('click', function (e) {
+    window.location.replace(url: quiz1.html)
+});
 
+questions = 0
 
+document.getElementsByClassName("right").addEventListener('click', function (e) {
+    if (questions >= 0){
+        questions = +1      
+    } else {
+        questions = +0
+    }
+});
 
+document.getElementsByClassName("left").addEventListener('click', function (e) {
+    if (questions >= 0) {
+        questions = -1
+    } else {
+        questions = +0
+    }
+});
 
-// document.addEventListener('DOMContentLoaded', function (e) {
-//     var image = document.getElementById('images');
-//     var image = document.querySelectorAll("#images")
-//     image.width(100);
-//     image.height(100);
-//     console.log("IT'S LOADEDDDDDDDDDDDDDD");
-    
-//     var random = true;
+q1 = document.getElementById("question1")
 
-//     image.addEventListener('mouseover', function (e) {    
-//         if (random) {
-//             console.log("working")
-//             image.style.height = "150px";
-//             image.style.width = "150px";
-//             random = false;
-//         } else {
-//             image.style.height = "100px";
-//             image.style.width = "100px";
-//             random = true;
-//         }
-//     })
-
-
-
-// })
+if (q1.style.display === "none") {
+    q1.style.display = "block";
+} else {
+    q1.style.display = "none";
+}

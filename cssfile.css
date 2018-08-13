@@ -41,3 +41,24 @@ html {
     height: 150px;
 }
 
+#button {
+    background-color: rgb(127, 150, 255);
+    width: 80px;
+    height: 30px;
+    border: solid 5px purple;
+    border-radius: 25px;
+    padding: 5px;
+    align-content: center;
+}
+
+#button:hover{
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 30px;
+}
+
+a.noStyle:link {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
