@@ -9,25 +9,26 @@ i {
     padding: 12px;
 }
 
+#quizContainer {
+    margin-top: 275px;
+    padding-right: 25%;
+    padding-left: 25%;
+}
+
 .right {
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
     float: right;
-    margin-right: 400px;
-    margin-top: 275px;
 }
 
 .left {
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
     float: left;
-    margin-left: 400px;
-    margin-top: 275px;
 }
 
 
 #question1 {
     font-size: 20px;
     text-align: center;
-
 }
